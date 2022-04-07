@@ -1,0 +1,19 @@
+h3{
+    font-size: 40px !important
+
+}
+
+button :hover{
+    background-color: blue;
+}
+
+canvas{
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime{
+    from{box-shadow: 1px 1px 38px purple;}
+    to{box-shadow: 1px 1px 38px palevioletred;}
+}
